@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+
+    transition: 0.3s;
+}
+
+/* Light Theme */
+
+body.light {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+body.light .calculator-container {
+    background-color: white;
+}
+
+body.light select,
+body.light input {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+body.light button {
+    background-color: #e0e0e0;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+/* Soft Dark Theme */
+
+body.soft-dark {
+    background-color: #2f3136;
+    color: #f0f0f0;
+}
+
+body.soft-dark .calculator-container {
+    background-color: #3a3d42;
+}
+
+body.soft-dark select,
+body.soft-dark input {
+    background-color: #4a4d52;
+    color: white;
+    border: 1px solid #666;
+}
+
+body.soft-dark button {
+    background-color: #5a5d62;
+    color: white;
+    border: none;
+}
+
+/* Dark Theme */
+
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark .calculator-container {
+    background-color: #1e1e1e;
+}
+
+body.dark select,
+body.dark input {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #444;
+}
+
+body.dark button {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+/* Shared Styles */
+
+.calculator-container {
+    padding: 30px;
+
+    border-radius: 12px;
+
+    width: 500px;
+
+    box-shadow:
+        0px 4px 12px
+        rgba(0, 0, 0, 0.15);
+
+    transition: 0.3s;
+}
+
+h1 {
+    text-align: center;
+}
+
+select,
+input {
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+
+    transition: 0.3s;
+}
+
+button {
+    width: 100%;
+
+    padding: 12px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+#result {
+    margin-top: 15px;
+
+    font-weight: bold;
+}
+
+#themeSwitcher {
+    position: fixed;
+
+    bottom: 20px;
+    right: 20px;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    backdrop-filter: blur(5px);
+
+    z-index: 1000;
+
+    box-shadow:
+        0px 2px 8px
+        rgba(0, 0, 0, 0.2);
+}
+
+#themeSwitcher label {
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-size: 14px;
+}
+
+#themeSwitcher select {
+    width: 120px;
+
+    margin: 0;
+}
+
+body.light #themeSwitcher {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+body.soft-dark #themeSwitcher {
+    background-color: rgba(58, 61, 66, 0.95);
+}
+
+body.dark #themeSwitcher {
+    background-color: rgba(30, 30, 30, 0.95);
+}
