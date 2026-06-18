@@ -1,21 +1,24 @@
-MIT License
+Copyright (c) 2026 Aarush Bhavsar
 
-Copyright (c) 2026 Blaise
+ALL RIGHTS RESERVED
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This software, including but not limited to its source code, algorithms, logic, structure, design, documentation, user interface, assets, and associated files, is the exclusive intellectual property of Aarush Bhavsar and is protected by applicable copyright laws and international treaties.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+No license, express or implied, is granted to any person or entity.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Except as expressly permitted below, no person or entity may:
+
+* Copy, reproduce, or duplicate any portion of this software.
+* Modify, adapt, translate, reverse engineer, or create derivative works.
+* Distribute, publish, transmit, share, or make available the software to others.
+* Incorporate any portion of the software into another project.
+* Use the software for personal, academic, organisational, or commercial purposes.
+* Sell, license, sublicense, rent, lease, host, monetise, or otherwise commercially exploit the software.
+
+Permission is granted solely to view the source code through authorised repositories for evaluation, educational reference, and portfolio review purposes.
+
+Any use beyond mere viewing requires prior written permission from Aarush Bhavsar.
+
+Unauthorised use, reproduction, modification, distribution, or commercial exploitation of this software constitutes copyright infringement and may result in legal action to the fullest extent permitted by law.
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
