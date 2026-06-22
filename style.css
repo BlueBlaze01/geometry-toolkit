@@ -191,3 +191,38 @@ body.dark #themeSwitcher {
 
     max-width: 600px;
 }
+
+#feedbackBtn {
+    position: fixed;
+
+    bottom: 20px;
+    left: 20px;
+
+    width: auto;
+
+    padding: 12px 18px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    z-index: 1000;
+}
+
+body.light #feedbackBtn {
+    background-color: #e0e0e0;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+body.soft-dark #feedbackBtn {
+    background-color: #5a5d62;
+    color: white;
+    border: none;
+}
+
+body.dark #feedbackBtn {
+    background-color: #333;
+    color: white;
+    border: none;
+}

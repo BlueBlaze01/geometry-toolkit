@@ -217,3 +217,20 @@ themeDropdown.addEventListener(
 updateCalculations();
 updateInputs();
 
+const feedbackBtn =
+    document.getElementById(
+        "feedbackBtn"
+    );
+
+feedbackBtn.addEventListener(
+    "click",
+    () => {
+
+        window.open(
+            "https://docs.google.com/forms/d/e/1FAIpQLSeQWjd4VCOAf9dJZiRCsf_ErV35Gu7wn22imlKKeNZ-UYvH8Q/viewform",
+            "_blank"
+        );
+    }
+);
+
+
